@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Heartfelt Apology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <style>
+    /* Basic styles */
+    body {
+      background-color: #f2e4e1; /* Soft pastel blush */
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* To keep the emojis floating */
+    }
+
+    h1 {
+      font-size: 3.5em;
+      color: #d85c7b; /* Soft pink */
+      animation: fadeIn 3s ease-in-out;
+      margin-top: 50px;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #f4b4d1;
+      animation: fadeIn 3s ease-in-out;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+
+    /* Animating text */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Crying emoji animation */
+    .crying-emoji {
+      font-size: 80px;
+      animation: crying 2s ease-in-out infinite;
+      margin-top: 20px;
+      color: #f59b94; /* Slight pink tint */
+    }
+
+    @keyframes crying {
+      0% { transform: translateY(0); opacity: 1; }
+      50% { transform: translateY(-10px); opacity: 0.6; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Floating crying emojis */
+    .crying-emoji:nth-child(odd) {
+      animation-duration: 2.5s;
+      animation-timing-function: ease-in-out;
+    }
+
+    .crying-emoji:nth-child(even) {
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+    }
+
+    /* Button styles */
+    .button {
+      background-color: #f4b4d1;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5em;
+      margin-top: 30px;
+      animation: bounce 1s infinite alternate;
+    }
+
+    .button:hover {
+      background-color: #f59b94;
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <audio autoplay loop>
+    <source src="https://open.spotify.com/track/4SqWKzw0CbA05TGszDgMlc?si=ef0082873254471f" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  
+
+  <h1>I'm Truly Sorry</h1>
+  <p>Hey Nilakshee,
+
+    I’ve been doing a lot of thinking, and I realize I owe you a sincere apology. I made a huge mistake by walking away when I should have been there, especially when things got complicated between us. I let a misunderstanding cloud my judgment, and instead of trying to work things out, I chose to distance myself.
+    
+    Looking back, I see that I hurt you, and that’s something I deeply regret. You didn’t deserve that. I miss you more than I can put into words, and I’ve come to realize how important you were to me, and still are.
+    
+    I don’t expect anything, but I wanted to reach out and say I’m truly sorry for how I handled things. If you’re open to it, I’d love the chance to talk and make things right—whether that’s just to clear the air or see where we stand.
+    
+    Take care of yourself,
+    Subhajit</p>
+
+  <p>I hope, in time, you'll find it in your heart to forgive me.</p>
+
+  <!-- Floating crying emojis -->
+  <div class="crying-emoji" style="top: 10%; left: 5%;">😭</div>
+  
+
+
+  <!-- Button to chat -->
+  <button class="button" onclick="window.location.href='https://www.instagram.com/nerdyaizen/'">Let's Talk, Please</button>
+
+</body>
+</html>
